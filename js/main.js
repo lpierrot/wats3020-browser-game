@@ -88,7 +88,7 @@ class TicTacToe {
                 this.winner = this.currentPlayer;
                 let winEvent = new Event('win');
                 document.dispatchEvent(winEvent);
-                return true; // Return a value to stop processing the additional move count check.
+                return true;
             }
         }
         this.moveCount++;
